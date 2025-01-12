@@ -15,6 +15,7 @@ public class UserMapper {
 
     public UserDTO userEntityToDTO(User user) {
         return UserDTO.builder()
+                .id(user.getId())
                 .username(user.getUsername())
                 .roles(roleMapper.roleListEntityToDTO(user.getRoles()))
                 .firstName(user.getFirstName())

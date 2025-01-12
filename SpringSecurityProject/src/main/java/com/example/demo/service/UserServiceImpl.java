@@ -73,7 +73,20 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
-    public void deleteUser(User user) {
-        userRepository.delete(user);
+    public void deleteUserById(Integer id) {
+        userRepository.deleteById(id);
+    }
+
+    @Override
+    public UserDTO registerAdmin(RegistrationRequest registrationRequest) {
+        User user = User.builder()
+                .username(registrationRequest.getUsername())
+                .firstName(registrationRequest.getFirstName())
+                .lastName(registrationRequest.getLastName())
+                .password(registrationRequest.getPassword())
+                .emailAddress(registrationRequest.getEmailAddress())
+                .role((roleRepository.findByRole("ADMIN")))
+                .build();
+        return this.createUser(user);
     }
 }
