@@ -15,9 +15,13 @@
         <a class="header" href="/logout"><span sec:authorize="isAuthenticated()">Logout</span></a>
         <a class="header" href="/"><span sec:authorize="isAuthenticated()">Home</span></a>
         <a class="header" href="/users"><span sec:authorize="isAuthenticated() and hasAuthority('ADMIN')">Users</span></a>
+        <a class="header" href="/register"><span sec:authorize="isAuthenticated() and hasAuthority('ADMIN')">Create User</span></a>
+        <a class="header" href="/admin"><span sec:authorize="isAuthenticated() and hasAuthority('ADMIN')">Create Admin</span></a>
         <a class="header" href="/user"><span sec:authorize="isAuthenticated() and hasAuthority('USER')">User</span></a>
         <a class="header" href="/roles"><span sec:authorize="isAuthenticated() and hasAuthority('ADMIN')">Roles</span></a></p>
-    <a class="header" href="/admin"><span sec:authorize="isAuthenticated() and hasAuthority('ADMIN')">Admin</span></a></p>
+        <a class="header" href="/books"><span sec:authorize="isAuthenticated() and hasAnyAuthority('ADMIN', 'USER')">All Books</span></a>
+        <a class="header" href="/books/create"><span sec:authorize="isAuthenticated() and hasAnyAuthority('ADMIN', 'USER')">Add Book</span></a>
+        <a class="header" href="/books/delete"><span sec:authorize="isAuthenticated() and hasAnyAuthority('ADMIN', 'USER')">Delete Book</span></a>
     <p></p>
 </div>
 
@@ -45,6 +49,12 @@
             <td th:text="${user.firstName}"></td>
             <td th:text="${user.lastName}"></td>
             <td th:text="${user.emailAddress}"></td>
+            <td>
+                <form th:action="@{'/users/delete/' + ${user.id}}" method="post" onsubmit="return confirm('Are you sure you want to delete this user?');">
+                    <button type="submit">Delete</button>
+                </form>
+
+            </td>
         </tr>
     </table>
 </div>

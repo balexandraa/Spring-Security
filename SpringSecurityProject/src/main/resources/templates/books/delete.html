@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+
+<head th:replace="~{fragments :: head}"></head>
+
+<body>
+
+<div class="header" th:replace="~{fragments :: header}"></div>
+
+<div class="body">
+    <h1>Delete Book</h1>
+
+    <form th:action="@{/books/delete}" method="post">
+        <div th:each="book : ${books}">
+            <label th:text="${book.title}"></label>
+            <input type="checkbox" name="bookIds" th:value="${book.id}" />
+        </div>
+        <button type="submit">Delete</button>
+    </form>
+
+</div>
+
+<div th:replace="~{fragments :: footer}"></div>
+
+</body>
+</html>

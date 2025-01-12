@@ -22,6 +22,8 @@ public interface UserService {
 
     UserDTO updateUser(User user);
 
-    void deleteUser(User user);
+    void deleteUserById(Integer id);
+
+    UserDTO registerAdmin(RegistrationRequest registrationRequest);
 
 }
