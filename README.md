@@ -22,6 +22,7 @@ This is a web-based application to manage a Bookstore with two types of users: *
 - **Spring Security**
 - **Spring Dependency Injection Framework**
 - **Thymeleaf**
+- **Hibernate**
 - **MySQL**
 - **MVC** software architecture 
 - **Client-Server** system architecture 
