@@ -48,19 +48,23 @@ INSERT INTO users_roles(users_id, roles_id) VALUES (1, 1);
 
 ## User Interface
 
-**ADMIN** 
+**ADMIN**
 
-<img src="https://github.com/user-attachments/assets/5b8fbe7e-8362-40c7-b5fe-4f36fe039348" alt="Screenshot 2025-03-05 214906" width="300" style="display:inline-block;"/>
-<br>
+<div style="text-align:center;">
+  <img src="https://github.com/user-attachments/assets/5b8fbe7e-8362-40c7-b5fe-4f36fe039348" alt="Screenshot 2025-03-05 214906" width="300" style="margin: 10px;"/>
+</div>
 
-<img src="https://github.com/user-attachments/assets/e3b74cb2-9299-4db5-98ad-a19070101426" alt="Screenshot 2025-03-05 214717" width="300" style="display:inline-block;"/> 
-<img src="https://github.com/user-attachments/assets/e8de8c6a-f3a3-4b1a-a77d-19c2aeda6e79" alt="Screenshot 2025-03-05 214649" width="300" style="display:inline-block;"/>
-<br>
+<div style="text-align:center;">
+  <img src="https://github.com/user-attachments/assets/e3b74cb2-9299-4db5-98ad-a19070101426" alt="Screenshot 2025-03-05 214717" width="300" style="margin: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/e8de8c6a-f3a3-4b1a-a77d-19c2aeda6e79" alt="Screenshot 2025-03-05 214649" width="300" style="margin: 10px;"/>
+</div>
 
 **USER**
 
-<img src="https://github.com/user-attachments/assets/26ce4c85-37a0-4550-9d43-5d97fb770b7a" alt="Screenshot 2025-03-05 214940" width="300" style="display:inline-block;"/>
-<img src="https://github.com/user-attachments/assets/8b73a696-6f4d-43e7-8645-bcc20e2ef143" alt="Screenshot 2025-03-05 214959" width="300" style="display:inline-block;"/>
+<div style="text-align:center;">
+  <img src="https://github.com/user-attachments/assets/26ce4c85-37a0-4550-9d43-5d97fb770b7a" alt="Screenshot 2025-03-05 214940" width="300" style="margin: 10px;"/>
+  <img src="https://github.com/user-attachments/assets/8b73a696-6f4d-43e7-8645-bcc20e2ef143" alt="Screenshot 2025-03-05 214959" width="300" style="margin: 10px;"/>
+</div>
 
 
 
