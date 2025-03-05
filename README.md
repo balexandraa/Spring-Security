@@ -61,6 +61,7 @@ INSERT INTO users_roles(users_id, roles_id) VALUES (1, 1);
   <img src="https://github.com/user-attachments/assets/e3b74cb2-9299-4db5-98ad-a19070101426" alt="Screenshot 2025-03-05 214717" width="300" style="margin: 10px; display:inline-block;"/>
 </div>
 
+
 **USER**
 
 <!-- Align the next two images on the same line -->
