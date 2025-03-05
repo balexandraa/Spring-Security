@@ -46,4 +46,23 @@ INSERT INTO users_roles(users_id, roles_id) VALUES (1, 1);
 
 **Note:** $2a$10$FVvZNPIIP3taMKdQqwwWsejbiH1DpT/0/PbBS933b73JewnHag6hK is the BCrypt hash of password Admin!1234 
 
+## User Interface
+
+**Welcome page** 
+![Screenshot 2025-03-05 213746](https://github.com/user-attachments/assets/036be8e3-7be6-43f8-bef5-6e3d76d9eb9a)
+
+**Register page**
+![Screenshot 2025-03-05 213827](https://github.com/user-attachments/assets/3444ce02-ce7b-4bcb-8ef9-29da5e456888)
+
+**CRUD on books**
+![Screenshot 2025-03-05 213625](https://github.com/user-attachments/assets/d666eb99-4d7a-41a8-b0d8-ce9e13f363d7)  ![Screenshot 2025-03-05 213729](https://github.com/user-attachments/assets/81328376-d8a5-4ff5-8b2d-edc77b03401c)
+
+**View books**
+![Screenshot 2025-03-05 213910](https://github.com/user-attachments/assets/118c0e8b-86ed-4d45-9a7a-891213a41008)
+
+
+
+
+
+
 
