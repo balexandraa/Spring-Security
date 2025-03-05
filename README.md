@@ -48,17 +48,22 @@ INSERT INTO users_roles(users_id, roles_id) VALUES (1, 1);
 
 ## User Interface
 
-**Welcome page** 
-![Screenshot 2025-03-05 213746](https://github.com/user-attachments/assets/036be8e3-7be6-43f8-bef5-6e3d76d9eb9a)
+**ADMIN** 
 
-**Register page**
-![Screenshot 2025-03-05 213827](https://github.com/user-attachments/assets/3444ce02-ce7b-4bcb-8ef9-29da5e456888)
+![Screenshot 2025-03-05 214906](https://github.com/user-attachments/assets/5b8fbe7e-8362-40c7-b5fe-4f36fe039348)
 
-**CRUD on books**
-![Screenshot 2025-03-05 213625](https://github.com/user-attachments/assets/d666eb99-4d7a-41a8-b0d8-ce9e13f363d7)  ![Screenshot 2025-03-05 213729](https://github.com/user-attachments/assets/81328376-d8a5-4ff5-8b2d-edc77b03401c)
 
-**View books**
-![Screenshot 2025-03-05 213910](https://github.com/user-attachments/assets/118c0e8b-86ed-4d45-9a7a-891213a41008)
+![Screenshot 2025-03-05 214717](https://github.com/user-attachments/assets/e3b74cb2-9299-4db5-98ad-a19070101426)  ![Screenshot 2025-03-05 214649](https://github.com/user-attachments/assets/e8de8c6a-f3a3-4b1a-a77d-19c2aeda6e79)
+
+
+**USER**
+
+![Screenshot 2025-03-05 214940](https://github.com/user-attachments/assets/26ce4c85-37a0-4550-9d43-5d97fb770b7a)  ![Screenshot 2025-03-05 214959](https://github.com/user-attachments/assets/8b73a696-6f4d-43e7-8645-bcc20e2ef143)
+
+
+
+
+
 
 
 
